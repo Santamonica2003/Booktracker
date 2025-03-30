@@ -41,9 +41,8 @@ Run the application from the terminal using:
 
 java -jar BookTracker.jar
 
--Once inside, you can access different options through the interactive menu.
-
--Available Commands
+Once inside, you can access different options through the interactive menu.
+Available Commands:
 
 -Add a user:
 
