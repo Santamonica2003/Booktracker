@@ -42,19 +42,33 @@ Run the application from the terminal using:
 java -jar BookTracker.jar
 
 -Once inside, you can access different options through the interactive menu.
+
 -Available Commands
+
 -Add a user:
+
 -Enter their name and age when prompted.
+
 -Register a book:
+
 -Provide the title and the number of pages read.
+
 -Check your reading history:
+
 -View the list of books you have read.
+
 -Modify a book title:
+
 -Specify the current name and the new name.
+
 -Delete a reading record:
+
 -Enter the record ID.
---View statistics:
+
+-View statistics:
+
 -Retrieve information about the user community.
+
 -Contact and Support
 
 If you have any questions or issues, contact me.
