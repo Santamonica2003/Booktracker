@@ -30,12 +30,12 @@ To run BookTracker, you need:
 - Java (JDK 11 or later) installed.
 - SQLite (if you want to manage the database manually).
 
-Installation
+#### Installation
 
 - Download the BookTracker.jar file or compile the source code (see developer instructions).
 - Ensure that the booktracker.db database file is in the same folder as the program.
 
-Basic Usage
+#### Basic Usage
 
 Run the application from the terminal using:
 
@@ -69,6 +69,22 @@ java -jar BookTracker.jar
 
 -Retrieve information about the user community.
 
--Contact and Support
+#### Alternative Compilation Method
+If the standard compilation method does not work, try compiling manually using the following command:
+
+javac -cp "lib/sqlite-jdbc-3.49.1.0.jar" src/DatabaseConnection.java src/Main.java
+
+This will generate the necessary .class files. Then, run the application with:
+
+java -cp ".;lib/sqlite-jdbc-3.49.1.0.jar;src" Main
+
+If you still encounter issues, ensure that:
+-The JDBC driver is correctly located in the lib/ folder.
+
+-The database file (booktracker.db) is in the correct location.
+
+-You are using the correct Java version (JDK 11 or later).
+
+#### Contact and Support
 
 If you have any questions or issues, contact me.
